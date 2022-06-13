@@ -5,6 +5,7 @@ function login(){
 }
 
 function cadastro(){
+    
     include 'telas/cadastro.php';
 }
 
