@@ -14,7 +14,9 @@ function cadastro(){
 
         fwrite($arquivo, "{$nome};{$email};{$telefone}" .PHP_EOL);
 
-        echo 'Pronto, Cadastro Realizado!';
+        $mensagem = 'Pronto, cadastro realizado';
+
+        include 'telas/mensagem.php';
     }
 
     include 'telas/cadastro.php';
